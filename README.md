@@ -34,7 +34,7 @@ docker run -d -p 8080:8080 -v /var/data/tomcat/:/usr/local/tomcat/webapps --name
 
 Remember to update the command line in order to change ```/usr/local/tomcat/webapps``` to the directory you want on your host. If you do not want to share your local storage you can copy your ```.war``` file into the container with the command:
 
-```docker cp app.war tomcar:/usr/local/tomcat/webapps/app.war```
+```docker cp app.war tomcat:/usr/local/tomcat/webapps/app.war```
 
 ## Documentation
 
